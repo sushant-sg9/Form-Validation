@@ -1,0 +1,174 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.container{
+  background-color: #002e5b ;
+}
+header {
+  background-color: #002e5b ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+nav{
+  background-color:white ;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0 0 5px 5px #b5c1cc;
+}
+
+.contact-info ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info li {
+  margin-right: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.contact-info li i {
+  margin-right: 5px;
+}
+
+.login-register {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.login-register button {
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+.login-register button:hover {
+  background-color: #0061a8;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.nav-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #838383;
+}
+
+.nav-links a:hover {
+  color: #0077cc;
+}
+
+.nav-links i {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+
+.form{
+  margin: 50px 100px 50px 100px;
+  box-shadow: 0 0 5px 5px gray;
+  border-radius: 5px;
+}
+.signup{
+  justify-content: center;
+  display: flex;
+  font-size: 25px;
+  font-weight: bold;
+  color: #547290
+}
+.start{
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+}
+.input-box{
+  margin-left: 70px;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.input-box input{
+  background-color: lightgray;
+}
+.signup-form{
+  margin-top: 50px;
+}
+.Email input{
+  background-color: lightgray;
+}
+.Email {
+  margin:0px 85px 50px 70px;
+}
+.footer{
+  background-color: #03a1fc;
+}
+.submit button{
+    font-size: 18px;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    will-change: box-shadow,transform;
+    background:#3aade1;
+    width: 500px;
+    height: 50px;
+    color: white;
+    border-radius: 5px;
+  }
+.submit{
+  justify-content: center;
+  display: flex;
+  margin: 20px;
+}
+.end{
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
+}
+.end a{
+  color: #5468FF;
+  text-decoration: none;
+  font-weight: bold;
+}
+.footer{
+  margin-top: 25px;
+  background-color: #002e5b ;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
